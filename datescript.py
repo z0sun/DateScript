@@ -1,11 +1,17 @@
+import time
+
 # Welcome! Who are you on a date with? 
 
 print("Welcome to DateNight!")
+time.sleep(3)
+
 DateName = input("What's your dates name? ")
+time.sleep(3)
 
 # How much money do you have? 
 
-Budget = int(input("What's your budget? "))
+Budget = int(input("What's your budget? ")
+             time.sleep(3)
 
 # Menu
 Menu = {"Burger": 20, "Wings": 15, "Lobster": 40,}
@@ -14,10 +20,12 @@ Menu = {"Burger": 20, "Wings": 15, "Lobster": 40,}
 print("\nMenu")
 for item, price in Menu.items():
     print(f"{item}: ${price}")
+    time.sleep(3)
 
 # Ask the user for their order and convert it to lowercase
 Order = input("\nWhat did you order? ").capitalize()
 DateOrder = input("\nWhat did your date order? ").capitalize()
+time.sleep(3)
 
 #Cost variable
 total_cost = 0
@@ -48,7 +56,9 @@ if Budget >= total_cost:
        
  else:
         print("Invalid input. Please answer 'yes' or 'no.'")
-
+     time.sleep(3)
 elif Budget < total_cost:
     print("Balling on a budget, go home.")
+    time.sleep(3)
     print("Your not seeing them again.")
+    time.sleep(3)
