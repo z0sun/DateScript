@@ -10,7 +10,7 @@ time.sleep(3)
 
 # How much money do you have? 
 
-Budget = int(input("What's your budget? ")
+Budget = int(input("What's your budget? "))
              time.sleep(3)
 
 # Menu
