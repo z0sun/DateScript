@@ -14,7 +14,7 @@ Budget = int(input("What's your budget? "))
 time.sleep(3)
 
 # Menu
-Menu = {"Burger": 25, "Wings": 20, "Lobster": 50,}
+Menu = {"Burger": 30, "Wings": 25, "Lobster": 70,}
 
 # Display the menu
 print("\nMenu")
