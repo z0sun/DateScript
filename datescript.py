@@ -11,7 +11,7 @@ time.sleep(3)
 # How much money do you have? 
 
 Budget = int(input("What's your budget? "))
-             time.sleep(3)
+time.sleep(3)
 
 # Menu
 Menu = {"Burger": 20, "Wings": 15, "Lobster": 40,}
@@ -56,7 +56,8 @@ if Budget >= total_cost:
        
  else:
         print("Invalid input. Please answer 'yes' or 'no.'")
-     time.sleep(3)
+ time.sleep(3)
+
 elif Budget < total_cost:
     print("Balling on a budget, go home.")
     time.sleep(3)
